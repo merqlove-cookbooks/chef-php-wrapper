@@ -1,6 +1,5 @@
-# postgresql-wrapper
+# php-fpm-wrapper
 
 ## Usage
 
-include_recipe 'postgresql-wrapper'
-
+include_recipe 'php-fpm-wrapper'

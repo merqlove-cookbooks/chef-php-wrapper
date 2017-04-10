@@ -1,9 +1,9 @@
 require 'spec_helper'
 
-describe 'postgresql-wrapper::default' do
-  # Serverspec examples can be found at
-  # http://serverspec.org/resource_types.html
-  it 'does something' do
-    skip 'Replace this with meaningful tests'
+describe 'php-fpm-wrapper::default' do
+  set :backend, :exec
+
+  describe port(9081) do
+    it { should be_listening }
   end
 end
