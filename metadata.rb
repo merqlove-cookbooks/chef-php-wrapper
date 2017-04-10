@@ -6,4 +6,4 @@ description 'Installs/Configures php'
 long_description 'Installs/Configures php'
 version '0.0.1'
 
-depends 'php', '3.0.0'
+depends 'php', '2.2.1'
