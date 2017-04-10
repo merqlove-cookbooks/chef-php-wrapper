@@ -1,7 +1,7 @@
 #
-# Cookbook Name:: php-fpm-wrapper
+# Cookbook Name:: php-wrapper
 # Recipe:: default
 #
 # Copyright (c) 2017 Alexander Merkulov, All Rights Reserved.
 
-include_recipe 'php-fpm::default'
+include_recipe 'php::default'

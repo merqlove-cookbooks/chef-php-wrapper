@@ -15,12 +15,7 @@ platforms:
 suites:
   - name: default
     run_list:
-      - recipe[php-fpm-wrapper::default]
-      - recipe[php-fpm::test]
+      - recipe[php-wrapper::default]
     attributes: 
       build-essential:
         compile_time: true
-      php-fpm:
-        pools:
-          - name: web
-            listen: '127.0.0.1:9081'

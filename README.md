@@ -1,5 +1,5 @@
-# php-fpm-wrapper
+# php-wrapper
 
 ## Usage
 
-include_recipe 'php-fpm-wrapper'
+include_recipe 'php-wrapper'
